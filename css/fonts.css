@@ -6,12 +6,29 @@ h1 {
   font-weight: 500;
   font-size: 40px;
   line-height: 100%;
-  letter-spacing: 0%;
 }
 nav a, .header-btn a {
 font-weight: 400;
 font-size: 20px;
 line-height: 28px;
-letter-spacing: 0%;
 color: #000000;
+}
+
+
+.sec-1-left h1 {
+font-weight: 500;
+font-size: 60px;
+line-height: 100%;
+}
+.sec-1-left p {
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+margin: 35px 0;
+}
+.sec-1-btn a {
+  font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #FFFFFF;
 }
