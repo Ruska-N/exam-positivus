@@ -1,0 +1,35 @@
+
+
+
+
+/* header styles */
+header {
+    padding-top: 60px;
+}
+.header {
+    max-width: 1240px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.header > * {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-container {
+    gap: 12.92px;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.header-btn {
+    border: 1px solid #191A23;
+    padding: 20px 35px;
+    border-radius: 14px;
+    margin-left: 40px;
+}
