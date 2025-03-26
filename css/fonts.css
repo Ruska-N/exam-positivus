@@ -1,34 +1,73 @@
-
 * {
   font-family: "space Grotesk", sans-serif;
 }
-h1 {
+.header h1 {
   font-weight: 500;
   font-size: 40px;
   line-height: 100%;
 }
-nav a, .header-btn a {
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-color: #000000;
+nav a,
+.header-btn a {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
 }
-
 
 .sec-1-left h1 {
-font-weight: 500;
-font-size: 60px;
-line-height: 100%;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 120%;
 }
 .sec-1-left p {
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-margin: 35px 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 35px 0;
 }
 .sec-1-btn a {
   font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.sec-2-descr h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 100%;
+  background-color: var(--main-green);
+  border-radius: 5px;
+}
+.sec-2-descr p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  max-width: 580px;
+}
+
+.service-card h3 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 100%;
+  /* margin-bottom: 93px; */
+}
+.service-card p {
+font-weight: 400;
 font-size: 20px;
 line-height: 28px;
-color: #FFFFFF;
+}
+.service-card:nth-child(3) p, .service-card:nth-child(6) p {
+  color: white;
+}
+
+.highlight-text-green {
+  background-color: var(--main-green);
+  padding: 0 5px;
+  border-radius: 5px;
+}
+.highlight-text-grey {
+  background-color: var(--grey);
+  padding: 0 5px;
+  border-radius: 5px;
 }
