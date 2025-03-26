@@ -116,3 +116,25 @@ header {
     flex-direction: column;
     justify-content: space-between;
 }
+
+/* aside 2 styles */
+.aside-2 {
+    max-width: 1240px;
+    display: flex;
+    align-items: center;
+    gap: 186px;
+    margin: 0 auto;
+    padding-left: 60px;
+    background-color: var(--grey);
+    border-radius: 45px;
+}
+.aside-2-left {
+    max-width: 500px;
+}
+.aside-btn {
+    padding: 20px 35px;
+    border-radius: 14px;
+    background-color: #000;
+    text-align: center;
+    max-width: 288px;
+}
