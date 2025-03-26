@@ -32,7 +32,7 @@ nav a,
   color: #ffffff;
 }
 
-.sec-2-descr h2, .sec-3-descr h2 {
+.title__h2 {
   font-weight: 500;
   font-size: 40px;
   line-height: 100%;
@@ -40,7 +40,7 @@ nav a,
   border-radius: 5px;
   padding: 7px;
 }
-.sec-2-descr p, .sec-3-descr p {
+.title__text {
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -93,3 +93,20 @@ line-height: 28px;
 margin: 0;
 }
 
+.card-number {
+font-weight: 500;
+font-size: 60px;
+line-height: 100%;
+}
+.card-title {
+font-weight: 500;
+font-size: 30px;
+line-height: 100%;
+}
+.card-green__text {
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+margin-top: 60px;
+position: relative;
+}
