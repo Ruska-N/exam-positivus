@@ -32,14 +32,15 @@ nav a,
   color: #ffffff;
 }
 
-.sec-2-descr h2 {
+.sec-2-descr h2, .sec-3-descr h2 {
   font-weight: 500;
   font-size: 40px;
   line-height: 100%;
   background-color: var(--main-green);
   border-radius: 5px;
+  padding: 7px;
 }
-.sec-2-descr p {
+.sec-2-descr p, .sec-3-descr p {
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -78,3 +79,17 @@ font-size: 18px;
 line-height: 100%;
 margin: 26px 0;
 }
+
+.block p {
+font-weight: 400;
+font-size: 18px;
+line-height: 120%;
+margin-bottom: 20px;
+}
+.block-btn p {
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+margin: 0;
+}
+
