@@ -25,7 +25,7 @@ nav a,
   line-height: 28px;
   margin: 35px 0;
 }
-.sec-1-btn a, .aside-btn a {
+.sec-1-btn a, .aside-btn a, .see-team-btn a {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -37,7 +37,7 @@ nav a,
   font-size: 40px;
   line-height: 100%;
   background-color: var(--main-green);
-  border-radius: 5px;
+  border-radius: 7px;
   padding: 7px;
 }
 .title__text {
@@ -64,12 +64,12 @@ line-height: 28px;
 .highlight-text-green {
   background-color: var(--main-green);
   padding: 0 5px;
-  border-radius: 5px;
+  border-radius: 7px;
 }
 .highlight-text-grey {
   background-color: var(--grey);
   padding: 0 5px;
-  border-radius: 5px;
+  border-radius: 7px;
 }
 
 
@@ -110,3 +110,21 @@ line-height: 100%;
 margin-top: 60px;
 position: relative;
 }
+
+
+.member-name {
+font-weight: 500;
+font-size: 20px;
+line-height: 100%;
+}
+.member-position {
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+}
+.member-exp p {
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+}
+
