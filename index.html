@@ -548,11 +548,16 @@
             <div class="form">
               <div class="radio-btns">
                 <label>
-                  <input type="radio" name="contactType" value="sayHi" checked />
+                  <input
+                    type="radio"
+                    name="contactType"
+                    value="sayHi"
+                    checked
+                  />
                   Say Hi
                 </label>
                 <label>
-                  <input type="radio" name="contactType" value="getQuote" /> 
+                  <input type="radio" name="contactType" value="getQuote" />
                   Get a Quote
                 </label>
               </div>
@@ -564,21 +569,88 @@
                 <div class="form-inputs">
                   <label for="email">Email*</label>
                   <input
-                    type="email" id="email" name="email" placeholder="Email" required />
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                  />
                 </div>
                 <div class="form-inputs">
                   <label for="message">Message*</label>
-                  <textarea id="message" name="message" placeholder="Message" required ></textarea>
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Message"
+                    required
+                  ></textarea>
                 </div>
-                <button type="submit">Send Message</button>
+                <button class="form-btn" type="submit">Send Message</button>
               </form>
             </div>
             <div class="form-right">
-              <img src="./images/form-stars.svg" alt="form">
+              <img src="./images/form-stars.svg" alt="form" />
             </div>
           </div>
         </div>
       </section>
+      <footer>
+        <div class="footer">
+          <div class="footer-nav">
+            <a href="index.html" class="logo-container">
+              <img src="./images/logo-wh.svg" alt="logo" />
+              <h1>Positivus</h1>
+            </a>
+            <nav>
+              <ul class="nav-list footer-nav">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Use Cases</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </nav>
+            <div class="social-links">
+              <img src="./images/linkedin-white.svg" alt="linkedin" />
+              <img src="./images/fb-icon.svg" alt="facebook" />
+              <img src="./images/x-icon.svg" alt="x" />
+            </div>
+          </div>
+          <div class="footer-contact">
+            <div class="footer-contact__left">
+              <h4><span class="contact-us-footer">Contact us:</span></h4>
+              <div class="contact-info">
+                <p>
+                  Email:
+                  <a href="mailto:info@positivus.com">info@positivus.com</a>
+                </p>
+                <p>Phone: <a href="tel:5555678901">555-567-8901</a></p>
+                <p>
+                  Address: 1234 Main St<br />
+                  Moonstone City, Stardust State 12345
+                </p>
+              </div>
+            </div>
+              <form class="contact-form">
+                <div class="email">
+                  <label for="email"></label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+                <button class="subscrb" type="submit">Subscribe to news</button>
+              </form>
+          </div>
+          <div class="copyright">
+            <p>© 2023 Positivus. All Rights Reserved.</p>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>

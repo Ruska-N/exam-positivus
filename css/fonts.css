@@ -1,7 +1,7 @@
 * {
   font-family: "space Grotesk", sans-serif;
 }
-.header h1 {
+.logo-container h1 {
   font-weight: 500;
   font-size: 40px;
   line-height: 100%;
@@ -151,4 +151,28 @@ input[type="radio"] {
   height: 28px;
   accent-color: var(--main-green);
   cursor: pointer;
+}
+
+.footer-nav li {
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+text-decoration: underline;
+}
+.contact-us-footer {
+font-weight: 500;
+font-size: 20px;
+line-height: 100%;
+color: #000000;
+background-color: var(--main-green);
+  border-radius: 7px;
+  padding: 0 7px;
+}
+.contact-info {
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+}
+.contact-info a {
+  color: white;
 }
