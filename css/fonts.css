@@ -128,3 +128,27 @@ font-size: 18px;
 line-height: 100%;
 }
 
+
+.author__name {
+font-weight: 500;
+font-size: 20px;
+line-height: 100%;
+color: var(--main-green);
+}
+.author__position {
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+}
+
+.radio-btns label {
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+}
+input[type="radio"] {
+  width: 28px;
+  height: 28px;
+  accent-color: var(--main-green);
+  cursor: pointer;
+}
