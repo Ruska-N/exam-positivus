@@ -222,6 +222,22 @@ header {
   background-color: black;
   top: -30px;
 }
+.toggle,
+.card-green {
+  display: none;
+}
+
+.toggle:checked + .card {
+  display: none;
+}
+
+.toggle:checked + .card + .card-green {
+  display: block;
+}
+
+.plus-btn {
+  cursor: pointer;
+}
 
 /* section 5 styles */
 .section-5 {
@@ -524,4 +540,7 @@ footer {
 .copyright a {
   color: white;
   text-decoration: underline;
+}
+.social:hover img {
+  scale: 1.2;
 }
