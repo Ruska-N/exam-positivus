@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
     <title>Home</title>
   </head>
   <body>
@@ -42,6 +43,13 @@
         <div class="section-1">
           <div class="sec-1-left">
             <h1>Navigating the digital landscape for success</h1>
+            <div class="main-photo-mobile">
+              <img
+                class="main-photo"
+                src="./images/main-photo.jpg"
+                alt="photo"
+              />
+            </div>
             <p>
               Our digital marketing agency helps businesses grow and succeed
               online through a range of services including SEO, PPC, social
@@ -52,7 +60,7 @@
             </div>
           </div>
           <div class="sec-1-right">
-            <img src="./images/main-photo.jpg" alt="photo" />
+            <img class="main-photo" src="./images/main-photo.jpg" alt="photo" />
           </div>
         </div>
       </section>
@@ -68,11 +76,12 @@
             <img src="./images/hubspot.svg" alt="hubspot" />
           </div>
           <div class="aside-icons">
-            <img src="./images/notion.svg" alt="notion" />
-          </div>
-          <div class="aside-icons">
             <img src="./images/netflix.svg" alt="netflix" />
           </div>
+          <div class="aside-icons">
+            <img src="./images/notion.svg" alt="notion" />
+          </div>
+
           <div class="aside-icons">
             <img src="./images/zoom.svg" alt="zoom" />
           </div>
@@ -108,7 +117,7 @@
               <div class="service-card-left">
                 <h3>
                   <span class="highlight-text-grey"
-                    >Search engine optimization</span
+                    >Pay-per-click advertising</span
                   >
                 </h3>
                 <div class="card-btn">
@@ -124,7 +133,7 @@
               <div class="service-card-left">
                 <h3>
                   <span class="highlight-text-grey"
-                    >Search engine optimization</span
+                    >Social Media Marketing</span
                   >
                 </h3>
                 <div class="card-btn">
@@ -140,7 +149,7 @@
               <div class="service-card-left">
                 <h3>
                   <span class="highlight-text-green"
-                    >Search engine optimization</span
+                    >Email<br>Marketing</span
                   >
                 </h3>
                 <div class="card-btn">
@@ -156,7 +165,7 @@
               <div class="service-card-left">
                 <h3>
                   <span class="highlight-text-grey"
-                    >Search engine optimization</span
+                    >Content<br>Creation</span
                   >
                 </h3>
                 <div class="card-btn">
@@ -172,7 +181,7 @@
               <div class="service-card-left">
                 <h3>
                   <span class="highlight-text-green"
-                    >Search engine optimization</span
+                    >Analytics and Tracking</span
                   >
                 </h3>
                 <div class="card-btn">
@@ -187,7 +196,7 @@
           </div>
         </div>
       </section>
-      <aside>
+      <aside class="aside-padd">
         <div class="aside-2">
           <div class="aside-2-left">
             <h3>Let’s make things happen</h3>
@@ -225,7 +234,7 @@
                 <img src="./images/north-east-arrow.svg" alt="arrow" />
               </div>
             </div>
-            <div class="block">
+            <div class="block block-last">
               <p>
                 For a B2B software company, we developed an SEO strategy that
                 resulted in a first page ranking for key keywords and a 200%
@@ -236,7 +245,7 @@
                 <img src="./images/north-east-arrow.svg" alt="arrow" />
               </div>
             </div>
-            <div class="block">
+            <div class="block block-last">
               <p>
                 For a national retail chain, we created a social media marketing
                 campaign that increased followers by 25% and generated a 20%
@@ -522,7 +531,7 @@
                 </p>
               </div>
             </div>
-            <div class="team__card">
+            <div class="team__card responsive-hidden">
               <div class="team__card--top">
                 <div class="member-photo">
                   <img src="./images/team-per-5.jpg" alt="team" />
@@ -543,7 +552,7 @@
                 </p>
               </div>
             </div>
-            <div class="team__card">
+            <div class="team__card responsive-hidden">
               <div class="team__card--top">
                 <div class="member-photo">
                   <img src="./images/team-per-6.jpg" alt="team" />
@@ -696,7 +705,7 @@
                 <button class="form-btn" type="submit">Send Message</button>
               </form>
             </div>
-            <div class="form-right">
+            <div class="form-right block-last">
               <img src="./images/form-stars.svg" alt="form" />
             </div>
           </div>
@@ -710,7 +719,7 @@
               <h1>Positivus</h1>
             </a>
             <nav>
-              <ul class="nav-list footer-nav">
+              <ul class="nav-list footer-nav footer-nav-list">
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Use Cases</a></li>
@@ -719,7 +728,10 @@
               </ul>
             </nav>
             <div class="social-links">
-              <a href="https://www.linkedin.com/in/rusudan-ninidze/" target="_blank" class="social"
+              <a
+                href="https://www.linkedin.com/in/rusudan-ninidze/"
+                target="_blank"
+                class="social"
                 ><img src="./images/linkedin-white.svg" alt="linkedin"
               /></a>
               <a href="https://www.facebook.com/" target="_blank" class="social"
@@ -758,6 +770,20 @@
               </div>
               <button class="subscrb" type="submit">Subscribe to news</button>
             </form>
+          </div>
+          <div class="social-links social-responsive">
+            <a
+              href="https://www.linkedin.com/in/rusudan-ninidze/"
+              target="_blank"
+              class="social"
+              ><img src="./images/linkedin-white.svg" alt="linkedin"
+            /></a>
+            <a href="https://www.facebook.com/" target="_blank" class="social"
+              ><img src="./images/fb-icon.svg" alt="facebook"
+            /></a>
+            <a href="https://x.com/?lang=en" target="_blank" class="social"
+              ><img src="./images/x-icon.svg" alt="x"
+            /></a>
           </div>
           <div class="copyright">
             <p>© 2023 Positivus. All Rights Reserved.</p>

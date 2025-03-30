@@ -1,0 +1,232 @@
+@media (max-width: 1439px) {
+  section {
+    padding: 0 20px;
+  }
+  .title__h2 {
+    font-size: 36px;
+  }
+
+  .service-card h3,
+  .aside-2-left h3 {
+    font-size: 26px;
+  }
+  .sec-1-left h1 {
+    font-size: 43px;
+  }
+  .sec-1-left p,
+  .aside-2-left p,
+  .title__text,
+  .block p, .card-green__text,
+  .member-position, .member-exp p,
+  .author__position, .param, .radio-btns label,
+  .footer-nav li, .contact-info, .copyright {
+    font-size: 16px;
+  }
+  .card-number {
+    font-size: 30px;
+  }
+  .card-title, .member-name,
+  .author__name, .contact-us-footer {
+    font-size: 18px;
+  }
+
+  /* header */
+  header {
+    display: none;
+  }
+  /* section 1 */
+  .section-1 {
+    flex-direction: column;
+    padding: 40px 0 60px;
+  }
+  .main-photo-mobile {
+    display: block;
+    margin-top: 10px;
+  }
+  .sec-1-right {
+    display: none;
+  }
+  .sec-1-btn {
+    max-width: 390px;
+    width: 100%;
+  }
+  .sec-1-left p {
+    margin: 20px 0 40px;
+  }
+
+  /* aside 1 */
+  .aside-apps {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px 20px;
+  }
+
+  /* section 2 */
+  .section-2 {
+    padding: 60px 0 70px;
+  }
+  .title {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  .sec-2-cards {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .card-btn p {
+    display: none;
+  }
+  .service-card {
+    position: relative;
+    height: 322px;
+  }
+  .service-card-right {
+    max-width: 165px;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+  }
+
+  /* aside 2 */
+  .aside-2-right {
+    display: none;
+  }
+  .aside-padd {
+    padding: 0 20px;
+  }
+  .aside-2 {
+    padding: 50px;
+    gap: 20px;
+  }
+  .aside-2-left p {
+    margin: 20px 0;
+  }
+
+  /* section 3 */
+  .section-3 {
+    padding: 60px 0;
+  }
+  .block-last {
+    display: none;
+  }
+
+  /* section 4 */
+  .section-4-cards {
+    gap: 20px;
+  }
+  .card, .card-green {
+    padding: 30px;
+  }
+  .plus-btn img {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* section 5 */
+  .section-5 {
+    padding: 60px 0 0;
+  }
+  .section-5 .title p {
+    width: 390px;
+  }
+  .responsive-hidden {
+    display: none;
+  }
+  .team {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .team__card {
+    padding: 40px 50px;
+  }
+  .team__card--top {
+    margin-bottom: 40px;
+  }
+  .member-exp::before {
+    top: -20px;
+  }
+  .see-team-btn {
+    position: static;
+    margin-top: 38px;
+    max-width: 390px;
+    text-align: center;
+  }
+
+  /* section 6 */
+  .section-6 {
+    padding: 60px 0;
+  }
+  .testimonials {
+    padding: 30px 30px 60px;
+  }
+  .param {
+    padding: 30px;
+    width: 330px;
+  }
+  .author {
+    margin: 44px 0 60px 65px;
+  }
+
+  /* section 7 */
+  .form-wrapper {
+    padding: 40px 30px;
+  }
+
+  /* footer */
+  footer {
+    padding-top: 90px;
+  }
+  .footer {
+    border-radius: 0;
+    padding: 50px 20px 30px;
+  }
+  .footer-nav {
+    flex-direction: column;
+    gap: 37px;
+    justify-content: center;
+  }
+  .footer-nav-list {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .social-links {
+    display: none;
+  }
+  .footer-contact {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 37px 0;
+    gap: 37px;
+  }
+  .contact-info {
+    gap: 15px;
+  }
+  .contact-form {
+    padding: 30px;
+    flex-direction: column;
+    gap: 22px;
+  }
+  .email input[type="email"] {
+    padding: 21px 25px;
+    width: 330px;
+  }
+  .subscrb {
+    width: 330px;
+  }
+  .social-responsive {
+    max-width: 130px;
+    display: flex;
+    margin: 37px auto 74px auto;
+  }
+  .copyright::before {
+    top: -37px;
+  }
+  .copyright {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}

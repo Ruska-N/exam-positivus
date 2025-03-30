@@ -35,7 +35,6 @@ nav a,
 .title__h2 {
   font-weight: 500;
   font-size: 40px;
-  line-height: 100%;
   background-color: var(--main-green);
   border-radius: 7px;
   padding: 7px;
@@ -43,14 +42,13 @@ nav a,
 .title__text {
   font-weight: 400;
   font-size: 18px;
-  line-height: 100%;
   max-width: 580px;
 }
 
 .service-card h3, .aside-2-left h3 {
   font-weight: 500;
   font-size: 30px;
-  line-height: 100%;
+  line-height: 120%;
 }
 .service-card p {
 font-weight: 400;
@@ -76,7 +74,7 @@ line-height: 28px;
 .aside-2-left p {
 font-weight: 400;
 font-size: 18px;
-line-height: 100%;
+line-height: 120%;
 margin: 26px 0;
 }
 
@@ -144,7 +142,6 @@ line-height: 150%;
 .radio-btns label {
 font-weight: 400;
 font-size: 18px;
-line-height: 100%;
 }
 input[type="radio"] {
   width: 28px;
