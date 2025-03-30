@@ -16,24 +16,73 @@
   .sec-1-left p,
   .aside-2-left p,
   .title__text,
-  .block p, .card-green__text,
-  .member-position, .member-exp p,
-  .author__position, .param, .radio-btns label,
-  .footer-nav li, .contact-info, .copyright {
+  .block p,
+  .card-green__text,
+  .member-position,
+  .member-exp p,
+  .author__position,
+  .param,
+  .radio-btns label,
+  .footer-nav li,
+  .contact-info,
+  .copyright {
     font-size: 16px;
   }
   .card-number {
     font-size: 30px;
   }
-  .card-title, .member-name,
-  .author__name, .contact-us-footer {
+  .card-title,
+  .member-name,
+  .author__name,
+  .contact-us-footer {
     font-size: 18px;
   }
 
   /* header */
   header {
-    display: none;
+    padding: 30px 20px 0;
   }
+  .nav-container {
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50%;
+    height: 100vh;
+    background-color: var(--dark);
+    text-align: justify;
+    padding: 40px;
+  }
+  .nav-container a {
+    color: white;
+  }
+  .burger-menu {
+    display: flex;
+  }
+  .menu:checked + .burger-menu + .nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  .nav-list {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .header-btn {
+    font-size: 16px;
+    padding: 7px;
+    background-color: white;
+    width: 100%;
+  }
+  .header-btn a {
+    color: black;
+  }
+  .menu:checked + .burger-menu + .nav-container .close-menu {
+    display: block;
+  }
+
   /* section 1 */
   .section-1 {
     flex-direction: column;
@@ -58,7 +107,7 @@
   .aside-apps {
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 20px 20px;
+    gap: 20px 10px;
   }
 
   /* section 2 */
@@ -116,7 +165,8 @@
   .section-4-cards {
     gap: 20px;
   }
-  .card, .card-green {
+  .card,
+  .card-green {
     padding: 30px;
   }
   .plus-btn img {

@@ -38,6 +38,34 @@ header {
   border-radius: 14px;
   margin-left: 40px;
 }
+.menu {
+  display: none;
+}
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+  cursor: pointer;
+}
+.bar {
+  width: 24px;
+  height: 2px;
+  background-color: #000;
+  border-radius: 2px;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+.close-menu {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 32px;
+  color: white;
+  cursor: pointer;
+}
 
 /* section 1 styles */
 .section-1 {
