@@ -98,6 +98,10 @@ header {
   max-width: 1240px;
   margin: 0 auto;
 }
+.aside-icons {
+  filter: grayscale(100%);
+}
+
 
 /* section 2 styles */
 .section-2 {
@@ -156,6 +160,7 @@ header {
 /* aside 2 styles */
 .aside-2 {
   max-width: 1240px;
+  max-height: 347px;
   display: flex;
   align-items: center;
   gap: 186px;

@@ -157,6 +157,22 @@
   .section-3 {
     padding: 60px 0;
   }
+  .sec-3-block {
+    overflow-x: auto;
+    background-color: white;
+    padding: 0;
+    gap: 20px;
+  }
+  .block {
+    max-width: 350px;
+    padding: 42px 50px;
+    background-color: var(--dark);
+    border-radius: 45px;
+    flex-shrink: 0;
+  }
+  .block:not(:first-child)::before {
+    display: none;
+  }
   .block-last {
     display: none;
   }
